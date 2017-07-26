@@ -1,0 +1,104 @@
+:root {
+  --borderLine: 0 solid;
+  --borderRadius: 5px;
+}
+
+body{
+  background-color: #C5AC74;
+}
+
+.content{
+  max-width: 1900px;
+  margin: 0 auto;
+}
+
+.persons {
+  display: flex;
+  flex-direction: row; 
+  flex-wrap:  wrap;
+  justify-content: space-around;
+}
+
+.deadpool{
+  background-color: #7C5C35;
+  margin: 2em;
+  padding: 2em 2em 0 2em;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  border: var(--borderLine);
+  border-radius: var(--borderRadius)
+  
+}
+
+.name{
+  height: 2.3em;
+  font-size: 2em;
+  display : flex;
+  align-items : center;
+  justify-content: center;
+}
+
+.ownerName{
+  text-align: center;
+  font-size: 4em;
+  margin-bottom: 1em;
+}
+
+.item{
+  background-color: #654d31;
+  margin-bottom: 1em;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  margin-bottom: 4em;
+  border: var(--borderLine);
+  border-radius: var(--borderRadius);
+}
+
+.deadpool img{
+  object-fit: cover;
+  height: 450px;
+  width: 300px;
+  border: var(--borderLine);
+  border-radius: var(--borderRadius) var(--borderRadius) 0 0;
+}
+
+.dead img{
+  filter: sepia(100%);
+}
+
+.dead .name{
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.headerTop{
+  text-align: center;
+  font-size: 4em;
+  margin-top:1em;
+  margin-bottom: -120px;
+}
+
+.headerBottom{
+  text-align: center;
+  font-size: 4em;
+  margin-top: -120px;
+  margin-bottom: 0.5em;
+}
+
+.logo{
+  display: flex;
+  justify-content: center;
+}
+
+.logo img{  
+  width: 90%;
+  max-width: 920px; 
+}
+
+.source{
+  text-align: center;
+  font-size: 2em;
+}
+
+a{
+  text-decoration: none;
+  color: #7C5C35;
+  
+}
