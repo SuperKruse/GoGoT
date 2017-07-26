@@ -21,7 +21,7 @@ const characters = [
         id: 'mountain',
         name: 'Gregor Clegane<br>(The Mountain)',
         picture: 'gregor-clegane.jpg',
-        status: 'dead'
+        status: 'alive'
     }, {
         id: 'theon',
         name: 'Theon Greyjoy',
@@ -31,7 +31,7 @@ const characters = [
         id: 'melisandre',
         name: 'Melisandre',
         picture: 'melisandre.webp',
-        status: 'dead'
+        status: 'alive'
     }, {
         id: 'euron',
         name: 'Euron Greyjoy',
