@@ -108,13 +108,21 @@ const addPerson = function (person, ownerId) {
     deadpoolCon.insertAdjacentHTML('beforeend', motherDiv)
 }
 
-bets.forEach(bet => {
+//Creates a new array with the deadpool array filled with the full character objects
+const fullBets = bets.map(bet => {
+    return {
+        id: bet.id,
+        name: bet.name,
+        deadpool: characters.filter((char) => bet.deadpool.find((deadpoolCharacter) => deadpoolCharacter === char.id))
+    }
+})
+
+fullBets.forEach(bet => {
     addName(bet)
     const userDeadpool = document.getElementById(bet.name)
     bet
         .deadpool
         .forEach(deadpoolPerson => {
-            const foundcharecter = characters.find((char) => char.id == deadpoolPerson)
-            addPerson(foundcharecter, bet.id)
+            addPerson(deadpoolPerson, bet.id)
         })
 })
