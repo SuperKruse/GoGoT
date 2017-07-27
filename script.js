@@ -7,7 +7,19 @@ const bets = [
     }, {
         "id": "anders",
         "name": "Anders",
-        "deadpool": ["hound", "theon", "mountain", "melisandre", "euron"]
+        "deadpool": ["mountain", "cersei", "grey", "jorah", "tormund"]
+    }, {
+        "id": "jan",
+        "name": "Jan",
+        "deadpool": ["jorah", "euron", "melisandre", "tormund", "mountain"]
+    }, {
+        "id": "emil",
+        "name": "Emil",
+        "deadpool": ["petyr", "ellaria", "euron", "mountain", "melisandre"]
+    }, {
+        "id": "lone",
+        "name": "Lone",
+        "deadpool": ["cersei", "ilyn", "mountain", "melisandre", "theon"]
     }
 ]
 
@@ -43,9 +55,34 @@ const characters = [
         picture: 'The_Hound.webp',
         status: 'alive'
     }, {
-        id: '',
-        name: 'The hound',
-        picture: 'gregor-clegane.jpg',
+        id: 'grey',
+        name: 'Grey Worm',
+        picture: 'grey-worm.webp',
+        status: 'alive'
+    }, {
+        id: 'jorah',
+        name: 'Jorah Mormont',
+        picture: 'jorah-mormont.webp',
+        status: 'alive'
+    }, {
+        id: 'tormund',
+        name: 'Tormund Giantsbane',
+        picture: 'tormund-giantsbane.webp',
+        status: 'alive'
+    }, {
+        id: 'petyr',
+        name: 'Petyr Baelish',
+        picture: 'petyr-baelish.webp',
+        status: 'alive'
+    }, {
+        id: 'ellaria',
+        name: 'Ellaria Sand',
+        picture: 'ellaria-sand.webp',
+        status: 'alive'
+    }, {
+        id: 'ilyn',
+        name: 'Ilyn Payne',
+        picture: 'ilyn-payne.jpg',
         status: 'alive'
     }
 ]
@@ -55,7 +92,7 @@ const container = document.getElementsByClassName("container")[0]
 //Adds owners name and div's for persons in the deadpool
 const addName = function (person) {
     const motherDiv = `<div class="deadpool">
-    <div class="ownerName">${person.name}'s kandidater</div> 
+    <div class="ownerName">${person.name}</div> 
     <div class="persons" id="${person.id}"> </div>
     </div>`
     container.insertAdjacentHTML('beforeend', motherDiv)
