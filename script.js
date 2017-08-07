@@ -23,7 +23,7 @@ const bets = [
     }, {
         "id": "tina",
         "name": "Tina",
-        "deadpool": ["jamie", "petyr", "mountain", "sansa", "melisandre"]
+        "deadpool": ["jamie", "petyr", "euron", "sansa", "melisandre"]
     }, {
         "id": "namit",
         "name": "Namit",
