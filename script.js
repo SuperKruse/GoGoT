@@ -95,17 +95,12 @@ const characters = [
     }, {
         id: 'jamie',
         name: 'Jaime Lannister',
-        picture: 'jaime-lannister.jpg',
+        picture: 'jaime-lannister.webp',
         status: 'alive'
     }, {
         id: 'sansa',
         name: 'Sansa Stark',
-        picture: 'sansa-stark.jpg',
-        status: 'alive'
-    }, {
-        id: 'grey',
-        name: 'Grey Worm',
-        picture: 'grey-worm.jpg',
+        picture: 'sansa-stark.webp',
         status: 'alive'
     }, {
         id: 'viserion',
@@ -115,7 +110,7 @@ const characters = [
     }, {
         id: 'yara',
         name: 'Yara Greyjoy',
-        picture: 'yara-greyjoy.jpg',
+        picture: 'yara-greyjoy.webp',
         status: 'alive'
     }
 ]
