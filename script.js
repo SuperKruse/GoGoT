@@ -19,7 +19,15 @@ const bets = [
     }, {
         "id": "lone",
         "name": "Lone",
-        "deadpool": ["cersei", "ilyn", "mountain", "melisandre", "theon"]
+        "deadpool": ["cersei", "ilyn", "euron", "melisandre", "theon"]
+    }, {
+        "id": "tina",
+        "name": "Tina",
+        "deadpool": ["jamie", "petyr", "mountain", "sansa", "melisandre"]
+    }, {
+        "id": "namit",
+        "name": "Namit",
+        "deadpool": ["yara", "viserion", "euron", "petyr", "grey"]
     }
 ]
 
@@ -83,6 +91,31 @@ const characters = [
         id: 'ilyn',
         name: 'Ilyn Payne',
         picture: 'ilyn-payne.jpg',
+        status: 'alive'
+    }, {
+        id: 'jamie',
+        name: 'Jaime Lannister',
+        picture: 'jaime-lannister.jpg',
+        status: 'alive'
+    }, {
+        id: 'sansa',
+        name: 'Sansa Stark',
+        picture: 'sansa-stark.jpg',
+        status: 'alive'
+    }, {
+        id: 'grey',
+        name: 'Grey Worm',
+        picture: 'grey-worm.jpg',
+        status: 'alive'
+    }, {
+        id: 'viserion',
+        name: 'Viserion',
+        picture: 'viserion.jpg',
+        status: 'alive'
+    }, {
+        id: 'yara',
+        name: 'Yara Greyjoy',
+        picture: 'yara-greyjoy.jpg',
         status: 'alive'
     }
 ]
