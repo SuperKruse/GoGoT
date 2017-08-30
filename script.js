@@ -81,7 +81,7 @@ const characters = [
         id: 'petyr',
         name: 'Petyr Baelish',
         picture: 'petyr-baelish.webp',
-        status: 'alive'
+        status: 'dead'
     }, {
         id: 'ellaria',
         name: 'Ellaria Sand',
@@ -106,7 +106,7 @@ const characters = [
         id: 'viserion',
         name: 'Viserion',
         picture: 'viserion.jpg',
-        status: 'alive'
+        status: 'dead'
     }, {
         id: 'yara',
         name: 'Yara Greyjoy',
